@@ -294,7 +294,7 @@ export default function App() {
         <Section id="contact" title="Contact">
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6">
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-3">
+              <div className="space-y-5 flex flex-col">
                 <div className="inline-flex items-center gap-2 text-zinc-300">
                   <Mail className="h-4 w-4" />
                   <a href={`mailto:${profile.email}`} className="hover:underline">{profile.email}</a>
